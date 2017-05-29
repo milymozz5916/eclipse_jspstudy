@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -8,16 +8,17 @@
 </head>
 <body>
 <%
-	String var2 = "ев╫╨ф╝";
+	String var2 = "М┘▄Л┼╓М┼╦";
 %>
 <%
 	String var1 = var2 + " Web Programming";
 %>
 
-цБ╥бгр ╟╙ : <%=var1 %><br>
-╪Ж╫д╟Х╩Й : <%=(3+5) %>
+Л╤°К═╔М∙═ Й╟▓ : <%=var1 %><br>
+Л┬≤Л▀²ЙЁ└Л┌╟ : <%=(3+5) %>
 <hr>
-╪Ж╫д╟Х╩Й3 : <%=(3*5)%>
-╪Ж╫д╟Х╩Й4 : <%=(6/2)%>
+Л┬≤Л▀²ЙЁ└Л┌╟3 : <%=(3*5)%>
+Л┬≤Л▀²ЙЁ└Л┌╟4 : <%=(6/2)%>
+Л┬≤Л▀²ЙЁ└Л┌╟2 : <%=(3*5)%>
 </body>
 </html>
